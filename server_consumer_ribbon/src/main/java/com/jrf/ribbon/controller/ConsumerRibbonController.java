@@ -18,7 +18,7 @@ import org.springframework.web.client.RestTemplate;
 public class ConsumerRibbonController {
     @Autowired
     private RestTemplate restTemplate;
-    private final String URL="http://TEST-PROVIDER/provide/get";
+    private final String URL="http://TEST-PROVIDER/provider/get";
 
     @GetMapping("get")
     public String get(){
