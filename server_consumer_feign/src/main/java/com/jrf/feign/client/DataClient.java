@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @Date 2021/1/18 15:31
  * @Version 1.0
  */
-@FeignClient(value = "FEIGN-CONSUMER")
+@FeignClient(value = "TEST-PROVIDER")
 @RequestMapping("provider")
 public interface DataClient {
     //和调用服务controller的一致

@@ -6,12 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="server_consumer_fegin" />
+        <module name="server_consumer_ribbon" />
+        <module name="server_provider (2)" />
+        <module name="server_provider (1)" />
         <module name="eureka_server" />
         <module name="server_provider" />
         <module name="server_consumer" />
         <module name="zuul" />
-        <module name="server_consumer_feign" />
+        <module name="config" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
